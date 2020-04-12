@@ -1,20 +1,19 @@
-# Covid-19 X-ray Classifier
+# COVID-19 X-ray Classifier
 
-
+## Disclaimer: This app is built only for educational purposed and not suitable to use in real world whatsoever!
 
 ## PROJECT OVERVIEW
 
-A web app to run an image classifier to distinct between covid-19 xrays versus normal. Convolutional Neural Network was built with Keras with Tensorflow backend. 
+A web app to run an image classifier to distinct between COVID-19 Xrays versus normal[1]. The model is based Convolutional Neural Network built with Keras with Tensorflow backend[2].
+Datasets: [3-4]
 
-[Kaggle Dataset](https://www.kaggle.com/c/dogs-vs-cats/data)
 
-## Run with Docker
 
-With **[Docker](https://www.docker.com)**, you can quickly build and run the entire application in minutes :whale:
+## Run with Docker :whale:
 
 ```shell
 - Clone this repo 
-$ cd COVID-19-Classification
+$ cd COVID19-Classification
 
 # 2. Build Docker image
 $ docker-compose build
@@ -23,21 +22,21 @@ $ docker-compose build
 $ docker-compose up
 ```
 
-Open http://localhost:5000 and wait till the webpage is loaded.
+Open http://localhost and wait till the webpage is loaded.
 
 
 ## Run locally
 
 - Clone this repo 
 - Install requirements
-- gunicorn -k gevent -w 5 app:app
-- Go to http://localhost
+- gunicorn -k gevent -w 5 app:app -b 0.0.0.0:5000
+- Go to http://localhost:5000
 - Done! :tada:
 
 :point_down: Screenshot:
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/5097752/71063354-8caa1d00-213a-11ea-86eb-879238887c1f.png" height="480px" alt="">
+  <img src="/screenshots/screenshot_image.png" height="480px" alt="">
 </p>
 
 
@@ -50,10 +49,11 @@ Flask
 ##### Python – CNN:
 keras | tensorflow | scikit-image | pandas | numpy | h5py
 ##### Web Development:
-HTML | CSS | Bootstrap | Materialize
+HTML | CSS | JS
 
 
 ##### References:
-1) [Deploy Keras Model with Flask as Web App in 10 Minutes]  (https://github.com/mtobeiyf/keras-flask-deploy-webapp)
+1) [Deploy Keras Model with Flask as Web App in 10 Minutes](https://github.com/mtobeiyf/keras-flask-deploy-webapp)
 2) [Detecting COVID-19 in X-ray images with Keras, TensorFlow, and Deep Learning](https://www.pyimagesearch.com/2020/03/16/detecting-covid-19-in-x-ray-images-with-keras-tensorflow-and-deep-learning/)
 3) [Open database of COVID-19 cases with chest X-ray or CT images](https://github.com/ieee8023/covid-chestxray-dataset)
+4) [X-ray images for healthy individuals](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia)
