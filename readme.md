@@ -2,7 +2,7 @@
 
 ## Disclaimer: This app is built only for educational purposes and not suitable to use in the real world whatsoever!
 
-## PROJECT OVERVIEW
+## Project Overview
 
 A web app to run an image classifier to distinct between COVID-19 Xrays versus normal[1]. The model is based Convolutional Neural Network built with Keras with Tensorflow backend[2].
 Datasets: [3-4]
@@ -41,7 +41,7 @@ Open http://localhost and wait till the webpage is loaded.
 
 
 
-## TOOLS, MODULES & TECHNIQUES:
+## Tools and Modules
 
 
 ##### Python – web development:
