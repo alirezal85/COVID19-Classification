@@ -1,6 +1,6 @@
 # COVID-19 X-ray Classifier
 
-## Disclaimer: This app is built only for educational purposed and not suitable to use in real world whatsoever!
+## Disclaimer: This app is built only for educational purposes and not suitable to use in the real world whatsoever!
 
 ## PROJECT OVERVIEW
 
