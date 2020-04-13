@@ -12,7 +12,7 @@ Datasets: [3-4]
 ## Run with Docker :whale:
 
 ```shell
-- Clone this repo 
+# 1. Clone this repo 
 $ cd COVID19-Classification
 
 # 2. Build Docker image
